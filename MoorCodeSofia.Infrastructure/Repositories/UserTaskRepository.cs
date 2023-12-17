@@ -32,11 +32,11 @@ namespace MoorCodeSofia.Infrastructure.Repositories
         public async Task<bool> DeleteTaskAsync(UserTask userTask, CancellationToken cancellationToken = default)
         {
             UserTask usrtask = DataSet.AllUserTasks.Where(x => x.Id == userTask.Id).FirstOrDefault();
-            var x = false;
+            var returnVal = false;
             await Task.Run(() => {
-                x = DataSet.AllUserTasks.Remove(usrtask);
+                returnVal = DataSet.AllUserTasks.Remove(usrtask);
             });
-            return x;
+            return returnVal;
         }
 
         public async Task<Guid> AddAsync(UserTask userTask, CancellationToken cancellationToken = default)
