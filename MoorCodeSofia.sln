@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoorCodeSofia.Application", "MoorCodeSofia.Application\MoorCodeSofia.Application.csproj", "{5AD1E273-03E8-4737-A343-6BFEC60969D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoorCodeSofia.Application", "MoorCodeSofia.Application\MoorCodeSofia.Application.csproj", "{5AD1E273-03E8-4737-A343-6BFEC60969D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoorCodeSofia.Domain", "MoorCodeSofia.Domain\MoorCodeSofia.Domain.csproj", "{FBB3EA51-6EEB-4190-AD51-7010D7C616FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoorCodeSofia.Domain", "MoorCodeSofia.Domain\MoorCodeSofia.Domain.csproj", "{FBB3EA51-6EEB-4190-AD51-7010D7C616FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoorCodeSofia.Infrastructure", "MoorCodeSofia.Infrastructure\MoorCodeSofia.Infrastructure.csproj", "{7C5903C7-4F79-401B-A3B7-43B08E947AA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoorCodeSofia.Infrastructure", "MoorCodeSofia.Infrastructure\MoorCodeSofia.Infrastructure.csproj", "{7C5903C7-4F79-401B-A3B7-43B08E947AA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoorCodeSofia.API", "MoorCodeSofia.API\MoorCodeSofia.API.csproj", "{ED21373F-DEEC-4DFB-876E-923DC5D2F593}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoorCodeSofia.API", "MoorCodeSofia.API\MoorCodeSofia.API.csproj", "{ED21373F-DEEC-4DFB-876E-923DC5D2F593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoorCodeSofia.Tests.Unit", "MoorCodeSofia.Tests.Unit\MoorCodeSofia.Tests.Unit.csproj", "{CA1B63FC-C4FF-45D9-B4F4-A1F232154F14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{ED21373F-DEEC-4DFB-876E-923DC5D2F593}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED21373F-DEEC-4DFB-876E-923DC5D2F593}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED21373F-DEEC-4DFB-876E-923DC5D2F593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1B63FC-C4FF-45D9-B4F4-A1F232154F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1B63FC-C4FF-45D9-B4F4-A1F232154F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1B63FC-C4FF-45D9-B4F4-A1F232154F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1B63FC-C4FF-45D9-B4F4-A1F232154F14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
